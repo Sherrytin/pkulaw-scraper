@@ -6,8 +6,8 @@ import signal
 
 # ================= 配置 =================
 YEAR = 2025                     # 年份
-START_MONTH = 13                # 起始月份
-END_MONTH = 13                   # 结束月份
+START_MONTH = 1                # 起始月份
+END_MONTH = 12                   # 结束月份
 TIMEOUT_SECONDS = 90 * 60       # 单次运行超时（秒）
 GRACE_PERIOD = 30               # 优雅退出等待时间（秒）
 SCRIPT_NAME = "split_monthly.py"
