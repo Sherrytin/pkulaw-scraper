@@ -142,16 +142,7 @@
 - 运行过程中按 `Ctrl+C` 或调度脚本超时自动终止，已成功的数据会立即保存。
 - 重新运行同一命令，脚本会自动跳过已完成的 URL，继续处理剩余部分。
 
-**示例**：
-```bash
-# 第一次运行，处理到一半按 Ctrl+C 中断
-python split_monthly.py --year 2025 --month 10
+##  📄 许可证
 
-# 再次运行相同命令，会自动从断点继续
-python split_monthly.py --year 2025 --month 10
-
-## 📄 许可证
 MIT © Sherrytin
 
-## 📧 联系方式
-如有问题，欢迎提交 Issue 或发送邮件至 2952618341@qq.com。
